@@ -1,0 +1,6 @@
+services:
+  app:
+    image: test-app2:latest
+    container_name: myapp1
+    ports:
+      - '80:80'
